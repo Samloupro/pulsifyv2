@@ -6,6 +6,7 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+mailscout-main/EmailPulsify-env/
 
 # Git metadata
 .git
