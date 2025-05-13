@@ -1,0 +1,21 @@
+# Ignore build artifacts and local environment
+__MACOSX/
+mailscout-main-env/
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Git metadata
+.git
+.gitignore
+
+# Coolify artifacts
+artifacts/
+
+# OS files
+.DS_Store
+
+# Docker files
+.dockerignore
