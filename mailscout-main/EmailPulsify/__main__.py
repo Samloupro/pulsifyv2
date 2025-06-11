@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from mailscout.scout import Scout  # Import Scout class
+from .scout import Scout  # Import Scout class
 
 app = Flask(__name__)
 scout = Scout()  # Initialize Scout
@@ -49,4 +49,3 @@ def find_emails():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
-
