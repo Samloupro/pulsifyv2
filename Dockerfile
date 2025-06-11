@@ -10,7 +10,8 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Copy project files
-COPY . .
+COPY mailscout-main /app
+WORKDIR /app
 
 # Install project
 RUN pip install --no-cache-dir --upgrade pip && \
