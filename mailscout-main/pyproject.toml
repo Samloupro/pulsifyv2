@@ -15,7 +15,17 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 keywords = ["email", "marketing", "email-finder", "email-validation"]
-dependencies = ["dnspython", "unidecode"]
+dependencies = [
+    "dnspython",
+    "unidecode",
+    "flask",
+    "blinker",
+    "click",
+    "itsdangerous",
+    "jinja2",
+    "markupsafe",
+    "werkzeug"
+]
 requires-python = ">=3.7"
 
 [project.optional-dependencies]
